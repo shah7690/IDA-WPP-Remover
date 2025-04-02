@@ -22,4 +22,4 @@ Copy `wpp_remover.py` to your IDA plugins directory (`%IDADIR%\plugins` or `%APP
 
 ## How it Works
 
-It uses a Hex-Rays microcode optimization pass to find calls to `WPP_*` functions and replace them with NOPs before pseudocode generation.
+It uses a Hex-Rays microcode optimization pass to find calls to `WPP_SF*` functions and replace them with NOPs before pseudocode generation.
