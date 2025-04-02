@@ -74,6 +74,12 @@ class wpp_remover_plugin_t(ida_idaapi.plugin_t):
                     self.plugin.disable_optimizer()
                 else:
                     self.plugin.enable_optimizer()
+
+                widget = ida_kernwin.get_current_widget()
+                if ida_kernwin.get_widget_type(widget) == ida_kernwin.BWN_PSEUDOCODE:
+                    vu = ida_hexrays.get_widget_vdui(widget)
+                    if vu:
+                        vu.refresh_view(True)
                 return 1
                 
             def update(self, ctx):
