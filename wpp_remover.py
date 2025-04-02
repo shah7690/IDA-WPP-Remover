@@ -17,7 +17,7 @@ class wpp_remover_optimizer_t(ida_hexrays.optblock_t):
         while ins:
             if ins.opcode == ida_hexrays.m_call and ins.l.t == ida_hexrays.mop_v:
                 name = ida_name.get_name(ins.l.g)
-                if name.startswith("WPP_"):
+                if name.startswith("WPP_SF_"):
                     blk.make_nop(ins)
                     changed = True
             ins = ins.next
