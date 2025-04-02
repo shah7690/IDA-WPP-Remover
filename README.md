@@ -18,6 +18,8 @@ Copy `wpp_remover.py` to your IDA plugins directory (`%IDADIR%\plugins` or `%APP
 - Plugin activates automatically for Windows PE files
 - Toggle on/off: Right-click in decompiled view → "Toggle WPP Remover"
 
+![](https://raw.githubusercontent.com/L4ys/IDA-WPP-Remover/refs/heads/main/preview.gif)
+
 ## How it Works
 
 It uses a Hex-Rays microcode optimization pass to find calls to `WPP_*` functions and replace them with NOPs before pseudocode generation.
