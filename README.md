@@ -1,0 +1,23 @@
+# IDA WPP Remover - IDA Plugin for Removing WPP Calls
+
+## Overview
+
+WPP Remover is an IDA Pro plugin that removes Windows Performance Profiling (WPP) calls during decompilation, resulting in cleaner pseudocode for analysis.
+
+## Features
+
+- Removes WPP calls from Hex-Rays decompiler output
+- Only activates for Windows PE files
+
+## Installation
+
+Copy `wpp_remover.py` to your IDA plugins directory (`%IDADIR%\plugins` or `%APPDATA%\Hex-Rays\IDA Pro\plugins`)
+
+## Usage
+
+- Plugin activates automatically for Windows PE files
+- Toggle on/off: Right-click in decompiled view → "Toggle WPP Remover"
+
+## How it Works
+
+It uses a Hex-Rays microcode optimization pass to find calls to `WPP_*` functions and replace them with NOPs before pseudocode generation.
