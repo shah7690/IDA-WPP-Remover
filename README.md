@@ -1,4 +1,4 @@
-# IDA WPP Remover - IDA Plugin for Removing WPP Calls
+# WPP Remover - IDA Plugin for Removing WPP Calls
 
 ## Overview
 
